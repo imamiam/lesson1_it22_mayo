@@ -12,6 +12,11 @@ def divide(a, b):
         return a / b
     return "Error: Division by zero"
 
+def error():
+    print("contribute")
+
+def trydebug():
+    print("try catch error")
 if __name__ == "__main__"
     print(f"Addition: {add(10, 5)}")
     print(f"Subtraction: {subtract(10, 5)}")
